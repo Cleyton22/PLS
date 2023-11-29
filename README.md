@@ -8,15 +8,23 @@ Para modificar quantas soluções aleatórias seão criadas para selecionar as a
 Para visualizar as arestas e o valor total dos objetivos de cada solução no terminal é preciso remover "/" e "/" das seguintes seções:
 
 /*
+
 printf("Solucoes nao dominadas encontradas na primeira populacao:\n\n");
+
 for (Node *node = unexploredSolutions->head; node != NULL; node = node->next){
-    printSolution(node->solution);
+
+printSolution(node->solution);
+
 }\*/
 
 /*
+
 printf("Todas solucoes nao dominadas encontradas apos a execucao completa:\n\n");
+
 for (Node *node = allNonDominatedSolutions->head; node != NULL; node = node->next){
-    printSolution(node->solution);
+
+printSolution(node->solution);
+
 }\*/
 
 No momento os valores total de cada objetivo de cada solução não dominada na população inicial e no pareto front são escritos nos arquivos: ValoresDoObjetivo1DasSoluçõesIniciais, ValoresDoObjetivo2DasSoluçõesIniciais, ValoresDoObjetivo1DasSoluçõesFinais e ValoresDoObjetivo2DasSoluçõesFinais. Esse metódo foi escolhido para não transbordar o terminal, além de facilitar a armazenação dos resultados em algo como uma planilha.
