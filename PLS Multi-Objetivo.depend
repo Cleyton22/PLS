@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1701236693 source:c:\users\cleyton\downloads\ufba\grupo de pesquisa, bolsa (felipe fernandes)\pls\pls multi-objetivo\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<stdbool.h>
+
